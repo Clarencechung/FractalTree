@@ -39,6 +39,5 @@ public void keyPressed(){
   {
     stroke(random(0,255),random(0,255),random(0,255));
     redraw();
-    // stroke(random(0,255),random(0,255),random(0,255));
   }
 }
