@@ -11,8 +11,8 @@ public void draw()
 {  
   background(0);  
   stroke(random(0,255),random(0,255),random(0,255));
-  line(320,480,320,380);  
-  drawBranches(320,380,100,3*Math.PI/2);
+  line(330,480,330,380);  
+  drawBranches(330,380,100,3*Math.PI/2);
 }
 
 public void drawBranches(int x,int y, double branchLength, double angle)
@@ -41,3 +41,4 @@ public void keyPressed(){
     redraw();
   }
 }
+
